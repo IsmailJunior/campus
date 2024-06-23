@@ -28,9 +28,16 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# global env files
+.env
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# velite files
+.velite
+public/static

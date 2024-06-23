@@ -1,0 +1,9 @@
+[
+	{
+		"id": 1,
+		"displayName": "t('common:academicsNavLink', {returnObjects: true})",
+		"href": "/#",
+		"list": "t( 'common:academicsNavLink', { returnObjects: true } )",
+		"backgroundImage": ""
+	}
+]

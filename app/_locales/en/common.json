@@ -1,0 +1,78 @@
+{
+	"aboutNavLink": {
+	"display": "About",
+	"list": ["About Al-Farahidi", "History", "Leadership and governance", "University Professorships", "Diversity and Inclusion", "Endowment", "The Community"]
+},
+
+"academicCalendarNavLink": {
+	"display": "Academic Calendar",
+	"list": ["About Al-Farahidi", "History", "Leadersdddhip"]
+},
+"academicLinksNavLink": {
+	"display": "Academic Links",
+	"list": ["Udemy", "Coursera", "LinkedIn Learning"]
+},
+"academicsNavLink":{
+	"display": "Academic",
+	"list": ["Academics","Degree Programs","Professional and Lifelog Learning","Online","Schools"]
+},
+"campusNavLink": {
+	"display": "Campus",
+	"list": ["Campus","Libraies","Museums", "Athletics", "Work","Events","Commencement"]
+},
+"closeNavButton": "Close",
+
+"inFocusNavLink": {
+	"display": "In Focus",
+	"list": ["Explore and understand the world of collage", "Commencement 2024", "Climate Solutions", "Space"]
+},
+"instructionsNavLink": {
+	"display": "Instructions",
+	"list": ["About Al-Farahidi", "History", "Leaderdddship"]
+},
+
+"jobsNavLink": {
+	"display": "Jobs",
+	"list": ["About Al-Farahidi", "History", "Leaderdddship"]
+},
+
+"lecturesNavLink": {
+	"display": "Lectures",
+	"list": ["About Al-Farahidi", "History", "Leadersdddhip"]
+},
+"libraryNavLink":{
+	"display": "Library",
+	"list": ["The Collage Library", "Virtual Library", "Virtual Labs", "Global Magazines", "SJR", "Scopus", "Clarivate"]
+},
+
+"menuButton": "Menu",
+
+"metricsNavLink": {
+	"display": "Metrics",
+	"list": ["Graduates", "Collage Students", "Tutors", "Scientific Research"]
+},
+"newsNavLink": {
+	"display": "News",
+	"list": ["The Gazette", "Trending News Stories"]
+},
+"qualityDivisionNavLink": {
+	"display": "Quality Division",
+	"list": ["About Al-Farahidi", "History", "Leaderdddship"]
+},
+"searchButton": "Search",
+
+"sustainableDevelopmentNavLink": {
+	"display": "Sustainable Development",
+	"list": ["Sustainable Development", "Sustainable Development Researches"]
+},
+
+"tutorsNavLink": {
+	"display": "Tutors",
+	"list": ["About Al-Farahidi", "History", "Leaddddership"]
+},
+
+"visitNavLink": {
+	"display": "Visit",
+	"list": ["Visit Al-Farahidi", "Tours", "Maps and directions", "Tours Providers"]
+ }
+}

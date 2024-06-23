@@ -1,0 +1,78 @@
+{
+	"aboutNavLink": {
+	"display": "عن الجامعة",
+	"list": ["عن جامعة الفراهيدي", "تاريخ الجامعة", "القيادة والحوكمة", "الأستاذية الجامعية", "التنوع و الشمول", "المنح", "المجتمع"]
+},
+
+"academicCalendarNavLink": {
+	"display": "التقويم الجامعي",
+	"list": ["About Al-Farahidi", "History", "Leadersdddhip"]
+},
+"academicLinksNavLink": {
+	"display": "الروابط التعليمية",
+	"list": ["Udemy", "Coursera", "LinkedIn Learning"]
+},
+"academicsNavLink":{
+	"display": "الاكاديمية",
+	"list": ["الاكاديميون","برنامج الشهادة الجامعية","التعلم المنهي والحياتي","على الانترنت","المدارس"]
+},
+"campusNavLink": {
+	"display": "الحرم الجامعي",
+	"list": ["الحرم الجامعي","المكتبات","المتاحف", "الرياضة", "العمل","الاحداث","الافتتاح"]
+},
+"closeNavButton": "إغلاق",
+
+"inFocusNavLink": {
+	"display": "المراكز",
+	"list": ["المساحات", "افتتاح 2024", "الحلول المناخية"]
+},
+"instructionsNavLink": {
+	"display": "التعليمات",
+	"list": ["الأجور الدراسية", "الية التقديم", "دليل ادارة الامتحانات","دليل انضباط الطلبة", "التعليمات الامتحانية","دليل مسار بولونيا","دليل الطالب","تعليمات الترقيات العلمية","دليل اجراءات شؤون الطلبة"]
+},
+
+"jobsNavLink": {
+	"display": "الوظائف",
+	"list": ["About Al-Farahidi", "History", "Leaderdddship"]
+},
+
+"lecturesNavLink": {
+	"display": "المحاضرات",
+	"list": ["About Al-Farahidi", "History", "Leadersdddhip"]
+},
+"libraryNavLink":{
+	"display": "المكتبة",
+	"list": ["المكتبة الجامعية", "المكتبة الافتراضية", "المختبر الافتراضي", "المجلات العالمية", "SJR", "Scopus", "Clarivate"]
+},
+
+"menuButton": "القائمة",
+
+"metricsNavLink": {
+	"display": "الاحصائيات",
+	"list": ["الخريجون", "طلبة الكليات", "التدريسيون", "البحوث العلمية"]
+},
+"newsNavLink": {
+	"display": "الأخبار",
+	"list": ["الجريدة", "الأخبار الشائعة"]
+},
+"qualityDivisionNavLink": {
+	"display": "قسم ضمان الجودة",
+	"list": ["قسم ضمان الجودة وتقييم الاداء", "تقييم الاداء", "الاستبيان"]
+},
+"searchButton": "البحث",
+
+"sustainableDevelopmentNavLink": {
+	"display": "التنمية المستدامة",
+	"list": ["التنمية المستدامة", "بحوث التنمية المستدامة"]
+},
+
+"tutorsNavLink": {
+	"display": "التدريسيون",
+	"list": ["About Al-Farahidi", "History", "Leaddddership"]
+},
+
+"visitNavLink": {
+	"display": "زيارة",
+	"list": ["زيارة الجامعة", "الجولات", "الخرائط والاتجاهات", "مقدمي الجولات"]
+ }
+}

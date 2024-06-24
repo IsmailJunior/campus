@@ -11,7 +11,6 @@ Fork this repo to your local mechaine
 ``
 git clone url
 cd campus
-
 ``
 
 Now to install the deps use this command
@@ -25,7 +24,6 @@ now run the developement server
 
 ``
 npm run dev
-
 ``
 
 You are online on port 3000!!

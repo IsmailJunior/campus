@@ -9,7 +9,7 @@ This porject is open source so feel free to modify and play around with the code
 Fork this repo to your local mechaine 
 
 ``
-git clone url
+git clone [url](https://github.com/IsmailJunior/campus.git)
 cd campus
 ``
 

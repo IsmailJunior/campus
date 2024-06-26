@@ -1,6 +1,6 @@
 'use client';
 import type { FC, ReactNode, HTMLAttributes } from 'react';
-import { HTMLMotionProps, motion, AnimatePresence, Variants} from 'framer-motion';
+import {type HTMLMotionProps, motion, AnimatePresence,type Variants} from 'framer-motion';
 import { cn } from '@/app/_lib/utils';
 
 type RootType = HTMLAttributes<HTMLDivElement> & {
@@ -80,7 +80,13 @@ const Content: FC<ContentType> = ({children, className, isDropdownOpend, height,
 	return (
 		<AnimatePresence>
 			{ isDropdownOpend && (
-		<motion.div initial='hidden' animate='visible' exit='hidden' variants={ contentVairants } className={cn('fixed top-0 right-0 w-screen h-screen bg-zinc-950 text-white', className)} {...props}>
+				<motion.div
+					initial='hidden'
+					animate='visible'
+					exit='hidden'
+					variants={ contentVairants }
+					className={ cn( 'fixed top-0 right-0 w-screen h-screen bg-zinc-950 text-white', className ) }
+					{ ...props }>
 			{children}
 		</motion.div>
 			)}

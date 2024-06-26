@@ -1,12 +1,15 @@
 {
 	"aboutNavLink": {
 	"display": "About",
-	"list": ["About Al-Farahidi", "History", "Leadership and governance", "University Professorships", "Diversity and Inclusion", "Endowment", "The Community"]
+	"list": ["About Al-Farahidi", 
+	"History", "Leadership and governance", 
+	"University Professorships", "Diversity and Inclusion", 
+	"Endowment", "The Community"]
 },
 
 "academicCalendarNavLink": {
 	"display": "Academic Calendar",
-	"list": ["About Al-Farahidi", "History", "Leadersdddhip"]
+	"list": ["About Al-Farahidi", "History", "Leadership"]
 },
 "academicLinksNavLink": {
 	"display": "Academic Links",
@@ -24,16 +27,17 @@
 
 "inFocusNavLink": {
 	"display": "In Focus",
-	"list": ["Explore and understand the world of collage", "Commencement 2024", "Climate Solutions", "Space"]
+	"list": ["Explore and understand the world of collage", "Commencement 2024", 
+	"Climate Solutions", "Space"]
 },
 "instructionsNavLink": {
 	"display": "Instructions",
-	"list": ["About Al-Farahidi", "History", "Leaderdddship"]
+	"list": ["About Al-Farahidi", "History", "Leadership"]
 },
 
 "jobsNavLink": {
 	"display": "Jobs",
-	"list": ["About Al-Farahidi", "History", "Leaderdddship"]
+	"list": ["About Al-Farahidi", "History", "Leadership"]
 },
 
 "lecturesNavLink": {
@@ -42,7 +46,9 @@
 },
 "libraryNavLink":{
 	"display": "Library",
-	"list": ["The Collage Library", "Virtual Library", "Virtual Labs", "Global Magazines", "SJR", "Scopus", "Clarivate"]
+	"list": ["The Collage Library", "Virtual Library", 
+	"Virtual Labs", "Global Magazines", 
+	"SJR", "Scopus", "Clarivate"]
 },
 
 "menuButton": "Menu",
@@ -57,7 +63,7 @@
 },
 "qualityDivisionNavLink": {
 	"display": "Quality Division",
-	"list": ["About Al-Farahidi", "History", "Leaderdddship"]
+	"list": ["About Al-Farahidi", "History", "Leadership"]
 },
 "searchButton": "Search",
 
@@ -68,7 +74,7 @@
 
 "tutorsNavLink": {
 	"display": "Tutors",
-	"list": ["About Al-Farahidi", "History", "Leaddddership"]
+	"list": ["About Al-Farahidi", "History", "Leadership"]
 },
 
 "visitNavLink": {

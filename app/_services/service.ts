@@ -1,8 +1,8 @@
 import qs from 'qs';
 import axios from 'axios';
-import {flattenAttributes} from '@/app/_lib/utils'
+import { flattenAttributes } from '@/app/_lib/utils';
 
-export const service = async ( path: string, locale: string,options = {}) =>
+export const fetcher = async ( path: string, locale: string,options = {}) =>
 {
   const homePageQuery = qs.stringify( {
     locale,

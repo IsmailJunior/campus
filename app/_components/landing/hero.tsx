@@ -19,8 +19,13 @@ export const Hero: FC<HeroBlockType> = ( {
 		links } } ) =>
 {
 	return (
-		<Link href={page} className={`relative h-96 flex flex-col items-center justify-center text-slate-100 ${offWhite && 'text-zinc-950'}`}>
-		<div className={`absolute flex flex-col items-center justify-center left-2/4 -translate-x-2/4 text-center space-y-4 ${position === 'bottom' ? 'bottom-12' : 'top-12'}`}>
+		<Link
+			href={ page }
+			className={ `relative h-96 flex flex-col items-center 
+			justify-center text-slate-100 ${ offWhite && 'text-zinc-950' }` }>
+			<div
+				className={ `absolute flex flex-col items-center justify-center left-2/4 
+				-translate-x-2/4 text-center space-y-4 ${ position === 'bottom' ? 'bottom-12' : 'top-12' }` }>
 				<h1 className='text-3xl md:text-6xl font-semibold'>{ title }</h1>
 				<StrapiImage
 					src={ textImage }
@@ -32,7 +37,7 @@ export const Hero: FC<HeroBlockType> = ( {
 				<p className={ cn( kufam.className, 'md:text-3xl' ) }>{ h4 }</p>
 				<div>
 					{  links.map( ( {text, id} ) => (
-						<Button size='sm' className='hover:bg-zinc-900 mx-2' key={ id }>{ text }</Button>
+						<Button size='sm' className='hover:bg-zinc-900 text-sm mx-2' key={ id }>{ text }</Button>
 					) ) }
 				</div>
 		</div>

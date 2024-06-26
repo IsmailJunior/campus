@@ -71,7 +71,18 @@
   .link {
     @apply text-slate-800 hover:text-slate-500 visited:text-slate-700 transition-all
   }
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
   .scrollbar::-webkit-scrollbar {
+    display: block;
     width: 12px;
     height: 15px;
   }

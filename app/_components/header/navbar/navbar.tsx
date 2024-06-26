@@ -37,7 +37,7 @@ const Navigation = () =>
 			variants={ navbarVariant }
 			className='fixed w-screen top-0 z-20 bg-background'>
 			<Root className='relative'>
-			<List className='my-6 px-12'>
+			<List className='my-6 px-4 md:px-16'>
 				<Link href='/'>
 					<Item>Logo</Item>
 				</Link>
@@ -46,13 +46,13 @@ const Navigation = () =>
 				<Item>
 					<Button>
 						<Search className='mr-5 rtl:ml-5'/>
-						<span>{t('common:searchButton')}</span>
+						<span className='hidden md:inline'>{t('common:searchButton')}</span>
 					</Button>
 				</Item>
 				<Item>
 					<Button onClick={toggleDropdown}>
 						<Menu className='mr-5 rtl:ml-5'/>
-						<span>{t('common:menuButton')}</span>
+						<span className='hidden md:inline'>{t('common:menuButton')}</span>
 					</Button>
 					<Content isDropdownOpend={isDropdownOpened} height={height} className='px-5 will-change-auto'>
 							<div
@@ -76,14 +76,14 @@ const Navigation = () =>
 						
 					<List className='flex'>	
 						<NavList
-							className='text-3xl md:text-5xl m-0 list-none p-[22px] sm:w-[500px]'
+							className='text-lg md:text-5xl text-wrap m-0 list-none p-[22px] w-[10rem] md:w-[400px]'
 							isDropdownOpened={ isDropdownOpened }>
-						<ScrollShadow as='ul' className='flex flex-col w-[370px] h-[600px] py-16 space-y-6 
+						<ScrollShadow as='ul' className='flex flex-col w-[370px] h-[35rem] py-16 space-y-6 
 						md:space-y-12 snap-mandatory snap-y scroll-smooth no-scrollbar md:scrollbar'>
 						{ navLinks.map( ( navLink ) => (
 							<NavListItem
 								onClick={ () => onNavLinkClicked( navLink.id, navLinks, navLink.backgroundImage ) }
-								key={ navLink.id } className={ cn( kufam.className, 'inline w-fit text-wrap relative' ) }>
+								key={ navLink.id } className={ cn( kufam.className, 'inline w-32 md:w-fit text-wrap relative' ) }>
 									{navLink.displayName.display}
 								</NavListItem>
 							))}
@@ -93,12 +93,12 @@ const Navigation = () =>
 						<NavList
 							isDropdownOpened={ listIndex }
 							key={ listIndex }
-							className='text-3xl md:text-2xl m-0 list-none p-[22px] sm:w-[500px]'>
+							className='m-0 list-none p-[22px] sm:w-[500px]'>
 							<ScrollShadow as='ul'
 								className='flex flex-col w-[370px] h-[600px] py-16 space-y-6 md:space-y-8 snap-mandatory 
 								snap-y scroll-smooth no-scrollbar md:scrollbar'>
 							{ list.map( ( listItem ) => (
-								<NavListSubItem className={ cn( kufam.className, 'inline w-fit text-wrap relative' ) }
+								<NavListSubItem className={ cn( kufam.className, 'inline w-[7rem] md:w-72 text-wrap relative text-lg md:text-3xl' ) }
 									key={ listItem }>
 									{listItem}
 								</NavListSubItem>

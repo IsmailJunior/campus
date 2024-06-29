@@ -10,6 +10,11 @@ Fork this repo to your local mechaine
 
 ```bash
 git clone https://github.com/IsmailJunior/campus.git
+```
+
+Get into the directory
+
+```bash
 cd campus
 ```
 

@@ -22,6 +22,6 @@
       "#site/content": ["./.velite"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/lang/langauge-changer.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/lang/langauge-changer.tsx", "__tests__/page.test.jsx"],
   "exclude": ["node_modules"]
 }

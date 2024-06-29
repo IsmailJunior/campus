@@ -41,3 +41,6 @@ next-env.d.ts
 # velite files
 .velite
 public/static
+
+# SWC files
+.swc
